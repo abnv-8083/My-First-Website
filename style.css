@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 30px;
+    background-color: #121212;
+}
+.header:hover{
+    background-color: #252525;
+}
+.pera{
+    padding: 5px;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid #252525;
+    cursor: pointer;
+}
+.navbar{
+    width: 100%;
+    height: 78px;
+    background-color: #121212;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+.logo{
+    position: absolute;
+    left: 150px;
+    display: inline-block;
+}
+.list ul li{
+    list-style-type: none;
+    color: white;
+    float: left;
+    padding-left: 20px;
+}
+.list{
+    display: flex;
+    position: absolute;
+    left: 300px;
+    bottom: 35px;
+    cursor: pointer;
+}
+.home-page{
+    text-decoration: underline;
+}
+.list ul li:hover{
+    text-decoration: underline;
+}
+.profile-icon{
+    position: relative;
+    display: inline-block;
+    left: 90%;
+    top: 30px;
+}
+.cart-icon{
+    position: relative;
+    left: 91%;
+    display: inline-block;
+    top: 30px;
+}
+.profile-icon:hover , .cart-icon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.images{
+    display: inline-flex;
+    margin: 20px 20px;
+    flex-wrap: wrap;
+    width: 75%;
+    position: relative;
+    left: 120px;
+}
+.images div{
+    margin: 25px 25px;
+}
+.founder{
+    position: absolute;
+    left: 160px;
+    width: 50%;
+    display: block;
+}
+.founder-details{
+    position: relative;
+    left: 330px;
+    bottom: 300px;
+}
+.d1{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.d2{
+    color: #595959;
+    margin-bottom: 20px
+}
+.button-about{
+    width: 104px;
+    height: 37px;
+    font-size: 12px;
+    background-color: #121212;
+    border:1px solid #121212;
+    color: white;
+}
+.button-about:hover{
+    transform: scale(1.05,1.05);
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: #121212;
+    position: relative;
+    top: 500px;
+}
+.cont{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+.contact1-div,.contact2-div{
+    position: relative;
+    left: 46%;
+    transform: scale(-50px);
+    width: 100px;
+    height: 30px;
+}
+.contact3-div{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    left: 45%;
+}
+.contact1, .contact2, .contact3{
+    color: rgb(125, 121, 121);
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+.contact1:hover, .contact2:hover, .contact3:hover{
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+}
+.insta-div{
+    margin-top: 20px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 50%;
+}
+
+.insta-div:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+.footer-pera{
+    padding-top: 10px;
+    text-align: center;
+    height: 10px;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    color: white;
+    border-top: 1px solid #252525;
+}
